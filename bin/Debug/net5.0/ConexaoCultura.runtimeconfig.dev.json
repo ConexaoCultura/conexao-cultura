@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/home/geovanna/.dotnet/store/|arch|/|tfm|",
+      "/home/geovanna/.nuget/packages"
+    ]
+  }
+}
