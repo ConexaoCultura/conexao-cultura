@@ -1,55 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400;700&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background-color: #FAFAFA;
-}
-
-/* ===== NAVIGATION ===== */
-/* header */
-.bg-light {
-    background-color: #FFFFFF !important;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-/* itens */
-.collapse.navbar-collapse {
-    justify-content: flex-end;
-    margin-right: 2.19rem;
-}
-
-/* nav */
-.nav-link {
-    color: #6495ED !important;
-    font-size: 25px;
-    font-family: 'Josefin Sans', sans-serif;
-    padding: 0 3.88rem 0 0 !important;
-}
-
-.nav-item.active {
-    font-weight: 400;
-}
-
-.nav-item.active {
-    font-weight: 600;
-}
-
-.navbar-toggler {
-    border: none;
-}
-
-.navbar-toggler:focus {
-    box-shadow: none;
-}
-
-/* logo */
-img.logo {
-    width: 15.62rem;
-}
 
 /* ===== MAIN ===== */
 /* banner */
@@ -95,12 +44,6 @@ img.logo {
     margin-top: 3.38rem;
 }
 
-.linha {
-    width: 74.5rem;
-    border-bottom: 1px solid #5B5B5B;
-    margin-bottom: 1rem;
-}
-
 .explicacao {
     font-family: "Poppins", sans-serif;
     font-size: 19px;
@@ -109,6 +52,10 @@ img.logo {
 }
 
 /* exibicao de enventos */
+.detalhes {
+    width: 768px;
+}
+
 .detalhesEventos {
     width: 768px;
     margin-left: 2rem;
@@ -122,11 +69,68 @@ img.logo {
     border-radius: 10px;
     width: 768px;
     height: 238px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .eventoDois,
 .eventoTres {
    margin-top: 80px;
+}
+
+/* configurações evento */
+.imgEvento {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+} 
+
+.imgEvento img {
+    filter: drop-shadow(2px 2px 3px #DDDDDD);
+    border-radius: 10px;
+    width: 248.02px;
+}
+
+.descricao {
+    width: 435.27px;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.tituloEvento {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.descricaoEvento,
+.publicacao {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #424242;
+}
+
+.saberMais {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 56px;
+}
+
+.botaoSaibaMais input {
+    background: #FFD176;
+    box-shadow: 0px 1px 2px rgba(196, 196, 196, 0.25);
+    border-radius: 10px;
+    border: none;
+    width: 105px;
+    height: 35px;
+    font-size: 13px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
 }
 
 /* botao ver mais */

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400;700&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FAFAFA;
+}
+
+/* ===== NAVIGATION ===== */
+/* header */
+.bg-light {
+    background-color: #FFFFFF !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* itens */
+.collapse.navbar-collapse {
+    justify-content: flex-end;
+    margin-right: 2.19rem;
+}
+
+/* nav */
+.nav-link {
+    color: #6495ED !important;
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 0 3.88rem 0 0 !important;
+}
+
+.nav-item.active {
+    font-weight: 400;
+}
+
+.nav-item.active {
+    font-weight: 600;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+/* logo */
+img.logo {
+    width: 15.62rem;
+}
+
+/* ===== MAIN ===== */
+.linha {
+    width: 74.5rem;
+    border-bottom: 1px solid #5B5B5B;
+    margin-bottom: 1rem;
+}
+
+/* ===== FOOTER ===== */
+.text-center.text-lg-start.bg-light.text-muted {
+    padding-top: 0.5rem;
+}
+
+.text-uppercase.fw-bold.mb-4 {
+    font-family: 'Baloo Bhaina 2', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #424242;
+}
+
+.text-uppercase.fw-bold.mb-4 a {
+    text-decoration: none;
+    color: #424242;
+}
+
+.col-md-3 p {
+    font-family: 'Baloo Bhaina 2', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+}
+
+.text-reset {
+    text-decoration: none;
+}
