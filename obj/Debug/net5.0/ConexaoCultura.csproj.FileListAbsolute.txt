@@ -23,7 +23,6 @@
 /home/geovanna/Documentos/conexaoCultura/ConexaoCultura/obj/Debug/net5.0/ConexaoCultura.TagHelpers.input.cache
 /home/geovanna/Documentos/conexaoCultura/ConexaoCultura/obj/Debug/net5.0/ConexaoCultura.TagHelpers.output.cache
 /home/geovanna/Documentos/conexaoCultura/ConexaoCultura/obj/Debug/net5.0/ConexaoCultura.RazorCoreGenerate.cache
-/home/geovanna/Documentos/conexaoCultura/ConexaoCultura/obj/Debug/net5.0/Razor/Views/Home/Index.cshtml.g.cs
 /home/geovanna/Documentos/conexaoCultura/ConexaoCultura/obj/Debug/net5.0/Razor/Views/Home/Privacy.cshtml.g.cs
 /home/geovanna/Documentos/conexaoCultura/ConexaoCultura/obj/Debug/net5.0/Razor/Views/Shared/Error.cshtml.g.cs
 /home/geovanna/Documentos/conexaoCultura/ConexaoCultura/obj/Debug/net5.0/Razor/Views/Shared/_Layout.cshtml.g.cs
@@ -38,3 +37,5 @@
 /home/geovanna/Documentos/conexaoCultura/ConexaoCultura/obj/Debug/net5.0/ConexaoCultura.pdb
 /home/geovanna/Documentos/conexaoCultura/ConexaoCultura/obj/Debug/net5.0/ConexaoCultura.genruntimeconfig.cache
 /home/geovanna/Documentos/conexaoCultura/ConexaoCultura/obj/Debug/net5.0/ConexaoCultura.csproj.CopyComplete
+/home/geovanna/Documentos/conexaoCultura/ConexaoCultura/obj/Debug/net5.0/Razor/Views/Home/Index.cshtml.g.cs
+/home/geovanna/Documentos/conexaoCultura/ConexaoCultura/obj/Debug/net5.0/Razor/Views/Shared/eventos/Eventos.cshtml.g.cs

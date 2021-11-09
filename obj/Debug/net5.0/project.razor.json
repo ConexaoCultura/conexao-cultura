@@ -15639,13 +15639,13 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/geovanna/Documentos/conexaoCultura/ConexaoCultura/Views/Home/Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FilePath": "/home/geovanna/Documentos/conexaoCultura/ConexaoCultura/Views/Home/Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/geovanna/Documentos/conexaoCultura/ConexaoCultura/Views/Home/Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FilePath": "/home/geovanna/Documentos/conexaoCultura/ConexaoCultura/Views/Shared/eventos/Eventos.cshtml",
+      "TargetPath": "Views\\Shared\\eventos\\Eventos.cshtml",
       "FileKind": "mvc"
     },
     {
