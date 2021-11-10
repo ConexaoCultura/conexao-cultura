@@ -20,7 +20,8 @@
     <!-- NAVIGATION -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <img class="logo" src="../../img/logo.png" alt="Logo Conexão Cultura">
+            <img class="logo show1" src="../../img/logo.png" alt="Logo Conexão Cultura">
+            <img class="logo show2" src="../../img/logoSemNome.svg" alt="Logo Conexão Cultura">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
                 aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -28,17 +29,17 @@
 
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="../inicio/index.html">Home</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"><i class="fas fa-home"></i>Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Perfil</a>
+                        <a class="nav-link" href="#"><i class="fas fa-user"></i>Perfil</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Mapa</a>
+                        <a class="nav-link" href="#"><i class="fas fa-map-signs"></i>Mapa</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Roteiro</a>
+                        <a class="nav-link" href="#"><i class="fas fa-map-marked-alt"></i>Roteiro</a>
                     </li>
                 </ul>
             </div>
@@ -46,10 +47,44 @@
     </header>
 
     <main>
-        <h2 class="titulo">Evento</h2>
-        <div class="linha"></div>
+        <div class="imgEventoFundo">
+            <img src="./img/eventoUm.png" alt="Imagem evento">
+        </div>
         <div class="imgEvento">
             <img src="./img/eventoUm.png" alt="Imagem evento">
+        </div>
+        <div class="evento">
+            <h2 class="titulo evento">Virada Cultural</h2>
+            <p><i class="far fa-clock"></i>Sábado às 19h00</p>
+            <p>11 de dezembro de 2021</p>
+            <p><i class="fas fa-map-marker-alt"></i>Tom Brasil - R. Bragança Paulista, 1281 - Várzea de Baixo, São Paulo
+                - SP</p>
+        </div>
+        <div class="detalhes">
+            <div class="infos">
+                <h6>INFORMAÇÕES</h6>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, a consectetur aliquid nemo est
+                    expedita. A optio quaerat tenetur, asperiores ut praesentium consequatur, nisi nesciunt repellat
+                    amet beatae rem iusto?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, a consectetur aliquid nemo est
+                    expedita. A optio quaerat tenetur, asperiores ut praesentium consequatur, nisi nesciunt repellat
+                    amet beatae rem iusto?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, a consectetur aliquid nemo est
+                    expedita. A optio quaerat tenetur, asperiores ut praesentium consequatur, nisi nesciunt repellat
+                    amet beatae rem iusto?
+                </p>
+                <h6>VALOR</h6>
+                <p>
+                    O Valor do evento será de: <span>R$13,00</span>.
+                </p>
+            </div>
+            <div class="musica">
+                <h6>MÚSICAS DO EVENTO</h6>
+                <iframe src="https://open.spotify.com/embed/playlist/1Tbkm7Nh09qmJ2pFJCFADz?utm_source=generator"
+                    width="90%" height="380" frameBorder="0" allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            </div>
         </div>
     </main>
 
@@ -61,7 +96,7 @@
                 <div class="row mt-3">
                     <!-- Grid column -->
                     <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                        <img src="../img/logoSemNome.png" alt="">
+                        <img class="imagemFooter" src="../../img/logoSemNome.svg" alt="">
                         <p>©2021 Conexão Cultura</p>
                         <p>Todos os direitos reservados</p>
                     </div>
