@@ -38,6 +38,17 @@ body {
     font-weight: 600;
 }
 
+.nav-link i {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link i {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+}
+
 .navbar-toggler {
     border: none;
 }
@@ -46,9 +57,25 @@ body {
     box-shadow: none;
 }
 
+.navbar-toggler {
+    margin-right: 1rem;
+}
+
 /* logo */
 img.logo {
     width: 15.62rem;
+}
+
+img.show1 {
+    opacity: 1;
+    visibility: visible;
+    display: flex;
+}
+
+img.show2 {
+    opacity: 0;
+    visibility: hidden;
+    display: none; 
 }
 
 /* ===== MAIN ===== */
@@ -84,4 +111,62 @@ img.logo {
 
 .text-reset {
     text-decoration: none;
+}
+
+img.imagemFooter {
+    width: 5rem;
+}
+
+@media screen and (max-width: 991px) {
+    .nav-item {
+        width: 100vw;
+    }
+
+    .nav-link {
+        padding: 0 !important;
+        font-size: 35px;
+    }
+
+    a.nav-link {
+        justify-content: center;
+        display: flex;
+        align-items: baseline;
+    }
+
+    .nav-link i {
+        padding-top: 7rem;
+        padding-right: 1rem;
+        font-size: 35px;
+        display: flex;
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    /* header > nav > .show{
+        height: calc(100vh - 91.7px) !important;
+        transition: height 0.7s !important;
+        overflow: hidden;
+    } */
+
+    /* header > nav > .navbar-collapse {
+        transition: height 0.7s !important;
+    } */
+    #navbarTogglerDemo02 > ul > li:nth-child(4) > a {
+        padding-bottom: 50px !important;
+    }
+} 
+
+@media screen and (max-width: 375px) { 
+    img.show1 {
+        opacity: 0;
+        visibility: hidden;
+        display: none; 
+    }
+    
+    img.show2 {
+        opacity: 1;
+        visibility: visible;
+        display: flex;
+        width: 5rem;    
+    }
 }

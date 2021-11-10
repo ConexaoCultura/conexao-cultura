@@ -15629,11 +15629,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/geovanna/Documentos/conexaoCultura/ConexaoCultura/Views/_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "/home/geovanna/Documentos/conexaoCultura/ConexaoCultura/Views/Shared/_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
