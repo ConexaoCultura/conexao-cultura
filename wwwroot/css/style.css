@@ -14,6 +14,7 @@ body {
 .bg-light {
   background-color: #ffffff !important;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 1;
 }
 
 /* itens */
@@ -121,6 +122,7 @@ img.show2 {
 
 img.imagemFooter {
   width: 5rem;
+  margin-bottom: 1rem;
 }
 
 @media screen and (max-width: 991px) {
